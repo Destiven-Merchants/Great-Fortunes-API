@@ -1,0 +1,1 @@
+web: gunicorn greatfortunes.wsgi --log-file -
