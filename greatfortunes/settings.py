@@ -85,6 +85,7 @@ WSGI_APPLICATION = 'greatfortunes.wsgi.application'
 
 CORS_ORIGIN_WHITELIST = [
     "http://localhost:3000",
+    "greatfortunesproperties.com",
 ]
 
 
