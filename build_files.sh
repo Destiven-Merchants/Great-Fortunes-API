@@ -1,4 +1,5 @@
 echo 'building the project...'
+python3.9 -m pip install psycopg2-binary
 python3.9 -m pip install -r requirements.txt
 
 echo 'Make migrations...'
