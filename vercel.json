@@ -24,5 +24,10 @@
         "dest": "greatfortunes/wsgi.py"
       }
     ],
-    
+    "build": {
+      "cmd": [
+        "apt-get update && apt-get install -y build-essential",
+        "pip install psycopg2"
+      ]
+    }
 }
